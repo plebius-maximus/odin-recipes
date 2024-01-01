@@ -4,9 +4,19 @@ h1, h3, h4 {
     text-align: center;
     background-color: burlywood;
     color: black;
+    padding: 8px;
 }
 p, li {
     font-family: 'Courier New', Courier, monospace ;
+}
+img {
+    border-radius: 5%;
+}
+.imgalign {
+    text-align: center;
+}
+.imgbox {
+    padding: 65px;
 }
 .title {
     font-size: 75px;
@@ -14,10 +24,11 @@ p, li {
 .name {
     font-size: 30px;
 }
-.recipeimg {
-    width: 300px;
-    height: auto;
-}
-.imgalign {
-    text-align: center;
+.dishes {
+    display: inline-block;
+    height: 225px;
+    margin: 50px;
+    border-radius: 5%;
+    border: solid burlywood;
+    border-width: 5px;
 }
