@@ -1,10 +1,9 @@
 h1, h3, h4 {
     font-family: Georgia, Garamond, "Times New Roman";
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    background-color: burlywood;
     color: black;
-    padding: 8px;
+    line-height: 1%;
 }
 p, li {
     font-family: 'Courier New', Courier, monospace ;
@@ -18,8 +17,22 @@ img {
 .imgbox {
     padding: 65px;
 }
+.recipeimg {
+    height: 500px;
+}
+.recipebox {
+    background-color: blanchedalmond;
+    width: 700px;
+    margin: 0 auto;
+    padding: 2px 25px 2px 25px;
+}
 .title {
     font-size: 75px;
+}
+.headborder {
+    margin: 10px;
+    padding: 2px;
+    background-color: burlywood;
 }
 .name {
     font-size: 30px;
