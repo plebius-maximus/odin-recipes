@@ -1,12 +1,14 @@
-h1 {
+.title {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     text-align: center;
     background-color: olivedrab;
     color: antiquewhite;
     font-size: 80px;
+    text-shadow: 5px 5px 15px rgba(0,0,0,.25);
+
 }
 
-h3 {
+.heading {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     color: olivedrab;
     font-size: 40px;
@@ -25,6 +27,23 @@ li {
 .recipes {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     font-size: 50px;
+    text-align: justify;
+    text-align: center;
+}
+
+.recipecard {
+    display: inline-block;
+    background-color: antiquewhite;
+    text-align: center;
+    width: 400px;
+    margin: 0px auto;
+}
+
+.recipeimg {
+    display: block;
+    height: 300px;
+    width: auto;
+    margin: 50px;
 }
 
 #home {
