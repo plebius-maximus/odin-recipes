@@ -14,6 +14,11 @@
     font-size: 40px;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 p {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     font-size: 28px;
@@ -39,11 +44,36 @@ li {
     margin: 0px auto;
 }
 
+.imgcontainer{
+    height: 300px;
+}
+
 .recipeimg {
     display: block;
-    height: 300px;
-    width: auto;
-    margin: 50px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.recipetitle {
+    margin: 20px auto 10px auto;
+}
+
+.recipes button{
+    background-color: olivedrab;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 15px;
+    margin-top: 0px;
+    border-radius: 12px;
+    padding: 5px 10px;
+    border: 0px;
+}
+
+.recipes button:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #home {
